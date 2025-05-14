@@ -18,7 +18,8 @@ print("Global:", name)
 #defined inside another function
 #has access to parent function's
 # variable even afer parent function is executed
-
+#inner function multipler remembers n from 
+#outer function
 def make_multiplier(n):
     def multiply(x):
         return n * x
